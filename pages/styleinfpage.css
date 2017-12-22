@@ -1,0 +1,26 @@
+
+.jumbotron {
+    color: white;
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+    background-image: url(24218.jpg);
+}
+.navbar {
+    margin-bottom: 0;
+    background-color: rgba(94, 51, 37, 0.76);
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #654035;
+    border-color: #9e2f0d;
+.logo {
+    color: rgb(211, 108, 68);
+    font-size: 200px;
+}

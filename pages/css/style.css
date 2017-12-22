@@ -1,0 +1,261 @@
+/*Brand*/
+.navbar > .container .navbar-brand,
+.navbar > .container-fluid .navbar-brand 
+{
+	margin-left: 50px;
+	margin-top : 0px;
+}
+.navbar-inverse {
+	background-color: rgba(0, 0, 0, 0.57);
+	background-size: cover;
+}
+.navbar-inverse .navbar-brand {
+    color: #ffdc82;
+}
+.navbar-inverse .navbar-brand:hover, 
+.navbar-inverse .navbar-brand:focus
+{
+	color: yellow;
+}
+/*sign in*/
+.btn-default {
+	color: #fdf500;
+    background-color: #000;
+    border-color: #8a9aec;
+    margin-right: 20px;
+}
+.btn-default:hover {
+    color: #fff;
+    background-color: rgb(69, 59, 32);
+    border-color: #3e6504;
+}
+/*sign up*/
+.btn-success {
+	    margin-bottom: 5%;
+    color: yellow;
+    background-color: #000000;
+    border-color: #8a9aec;
+}
+.btn-success:hover {
+    color: #fff;
+    background-color: rgb(69, 59, 32);
+    border-color: #3e6504;
+}
+.btn-success:focus {
+	color: black;
+	background-color: white;
+	border-color: white;
+}
+.btn-success:active:hover {
+	color: black;
+	background-color: white;
+	border-color: white;
+}
+/*input*/
+.form-control:focus 
+{
+	border-color: #43dc43;
+    box-shadow: inset 0 1px 1px rgba(255, 1, 1, 0.32), 0 0 8px rgba(89, 255, 0, 0.6);
+}
+#head {
+	font-size: 20px;
+}
+.lead {
+	font-size: 18px;
+	margin-right: 20px;
+	color: white;
+}
+.signUp .form-control {
+	height: 30px;
+	margin-top: 10px;
+}
+.Select {
+	width: 90px;
+	height: 30px;
+	border-radius: 5px;
+}
+/*==================================================================*/
+body {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: fixed;
+	padding-top: 70px;
+}
+html {
+	overflow: scroll;
+}
+/*the first link*/
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus
+{
+	background-color: red;
+}
+/*nav bar links*/
+.navbar-inverse .navbar-nav > li > a
+{
+
+	color: #94ceff;
+}
+
+/*hover*/
+.navbar-inverse .navbar-nav > li > a:hover
+{
+	background-color: red;
+	
+}
+/*drop*/
+.dropdown-menu
+{
+	background-color: black;
+	border-top: 2px solid red;
+	right: auto;
+	left: 0;
+}
+.dropdown-menu > li > a
+{
+	color: white;
+	padding: 8px 12px;
+	-webkit-transition:padding .5s ease;
+	-moz-transition:padding .5s ease;
+	-o-transition:padding .5s ease;
+	transition:padding .5s ease;
+}
+.dropdown-menu > li > a:hover
+{
+	background-color: yellow;
+	padding-left: 17px;
+}
+.navbar-right .dropdown-menu 
+{
+	right: auto;
+	left: auto;
+}
+.carousel-caption {
+	bottom: 150px;
+	background-color: rgba(90, 0, 9, 0.66);
+	color: rgb(199, 121, 121);
+}
+
+.carousel-indicators li {
+	border-color: rgb(199, 121, 121);
+}
+.carousel-indicators .active{
+	background-color: red;
+	border-color: rgb(199, 121, 121);
+}
+
+.Select {
+	margin-top : 10px;
+	margin-left : 30px;
+}
+
+
+
+#firstInputCell {
+	margin-top: 13px;
+}
+
+
+
+p {
+	font-size : 10px;
+}
+
+@media screen and (max-width: 700px) {
+.signUp {
+	width : 650px;
+}
+}
+
+@media screen and (max-width: 650px) {
+.signUp {
+	width : 600px;
+}
+}
+
+@media screen and (max-width: 600px) {
+.signUp {
+	width : 500px;
+	margin-left : 20px;
+}
+}
+
+@media screen and (max-width: 550px) {
+.signUp {
+	width : 500px;
+		margin-left : 20px;
+
+}
+.lead {
+	font-size : 15px;
+	margin-left : -5px;
+}
+}
+
+
+
+@media screen and (max-width: 500px) {
+.signUp {
+	width : 450px;
+		margin-left : 20px;
+}
+
+
+
+
+.lead {
+	font-size : 15px;
+	margin-left : -10px;
+}
+
+}
+
+@media screen and (max-width: 450px) {
+.signUp {
+	width : 350px;
+		margin-left : 20px;
+
+}
+.lead {
+	font-size : 15px;
+	margin-left : -20px;
+}
+}
+
+@media screen and (max-width: 400px) {
+.signUp {
+	width : 300px;
+		margin-left : 20px;
+
+}
+.lead {
+	font-size : 15px;
+	margin-left : -30px;
+}
+}
+
+@media screen and (max-width: 350px) {
+.signUp {
+	width : 250px;
+		margin-left : 20px;
+
+}
+.lead {
+	font-size : 15px;
+	margin-left : -30px;
+}
+}
+
+@media screen and (max-width: 300px) {
+.signUp {
+	width : 200px;
+		margin-left : 40px;
+
+	
+}
+.lead {
+	font-size : 10px;
+	margin-left : -50px;
+}
+}

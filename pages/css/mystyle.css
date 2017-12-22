@@ -1,0 +1,209 @@
+/*css file .. for basic style*/
+body{
+	display:table;
+	height:100%;
+	width:100%;
+	background-image:url(../images/cr.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+	background-size:cover;
+
+}
+
+#imglogo{
+	float:left;
+}
+#moreinf{
+	text-align:center;
+}
+#notification{
+	text-align:center;
+	margin:0px;
+	}
+	
+#notification2 {
+	text-align:center;
+	margin-left:170px;
+}
+	
+#footerContent {
+	text-align:center;
+}
+
+.jumbotron{
+	margin:0px;
+	
+}
+#backToWelcomePage {
+	margin-top: -8px;
+}
+
+#slogan{
+	text-align:center;
+	font-family:Algerian;
+	color:#473b19;
+
+}
+#notiP{
+	text-align:center;
+	color:rgba(169, 134, 32, 0.6);
+
+}
+
+
+
+
+
+#btnalign{
+		text-align:center;
+
+}
+
+#main {
+
+}
+
+#welcomemessage{
+	font-size:70px;
+	font-family: Sakkal Majalla;
+    color: rgb(254, 219, 129);
+    text-align: center;
+	margin-top : -10px;'
+}
+
+
+#slogan1{
+	font-size:40px;
+	margin-top : -10px;
+	font-family: Centaur;
+    color: rgb(202, 173, 103);
+    text-align: center;
+
+}
+
+#letsgomessage{
+font-size:40px;
+	margin-top : -20px;
+
+	font-family: Centaur;
+    color: rgb(197, 168, 100);
+    text-align: center;
+
+}
+
+.down .btn {
+
+    color: #71e48d;
+    background-color: rgba(168, 139, 84, 0.52);
+    border-color: #ccc;
+    visibility: visible;
+
+    border-radius: 20px;
+}
+.down .btn:hover {
+  color: #00ff1f;
+  background-color: rgba(255, 231, 12, 0.33);
+  border-color: rgba(191, 196, 113, 0.35);
+}
+.btn-default:active:hover,
+.btn-default.active:hover,
+.open > .dropdown-toggle.btn-default:hover,
+.btn-default:active:focus,
+.btn-default.active:focus,
+.open > .dropdown-toggle.btn-default:focus,
+.down.btn-default:active.focus,
+.btn-default.active.focus,
+.open > .dropdown-toggle.btn-default.focus {
+ color: #00ff13;
+  background-color: rgba(98, 101, 4, 0.58);
+  border-color: #8c8c8c;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgba(240, 248, 255, 0.49);
+    z-index: 99;
+    margin-top: 10%;   
+    padding-top: 4px;
+    padding-bottom: 2%;
+}
+
+
+#slider {
+	position : absolute;
+	width : 85%;
+	display : none;
+}
+
+#sliderContent {
+	background: White;
+	height: 183px;
+}
+
+#nbar{
+	color: rgb(37, 31, 18);
+    background-color:	#D3D3D3;
+	cursor:pointer;
+	position: absolute;
+	margin: auto;
+    width: 85%;
+	border-radius : 5px;
+
+}
+#nbar2{
+	display:none;
+	color: rgb(37, 31, 18);
+    background-color: 	#D3D3D3;
+	cursor:pointer;
+	position: absolute;
+	margin: auto;
+    width: 100%;
+
+}
+#explaningContent {
+	padding-top : 20px;
+}
+#slogan {
+	font-size: 20px;
+}
+
+#notiP {
+	font-size: 15px;
+	line-height : 10px;
+	margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 750px) {
+	p {
+	font-size : 15px;
+	}
+}
+
+
+
+/*
+.jumbotron {
+    color: white;
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+    background-image: url(24218.jpg);
+}.navbar {
+    margin-bottom: 0;
+    background-color: rgba(94, 51, 37, 0.76);
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+}.btn-danger {
+    color: #fff;
+    background-color: #654035;
+    border-color: #9e2f0d;
+.logo {
+    color: rgb(211, 108, 68);
+    font-size: 200px;
+}*/
